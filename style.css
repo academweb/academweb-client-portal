@@ -1,0 +1,64 @@
+.message_to_client, .message_to_admin {
+    border: none;
+    border-radius: 8px;
+    margin: 10px 0px;
+    padding:0px 5px 0px 5px;
+}
+
+.message_to_client {
+    /*color: #ffffff;
+    background-color: #297FB8;*/
+    width: 55%;
+    color: #fff;
+    background-color: #00529B;
+}
+
+.message_to_admin { 
+    /*color: #000000;
+    background-color: #C5C5C5;*/
+    margin-left: 35%;
+    color: #282828; background-color: #d4d4d4; border-color: #d4d4d4;
+}
+
+.message_to_admin_date, .message_to_client_date {
+    text-align: right;
+    font-size: 0.7em;
+    color: white;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#admin_message_content {
+    clear: both;
+    padding: 5px 5px 5px 5px;
+    background-color: white;
+    overflow-y: scroll;
+    height: 400px;
+}
